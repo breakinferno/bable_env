@@ -24,7 +24,7 @@ module.exports={
     },
     plugins: [],
     devServer: {
-        contentBase: path.join(__dirname, "dist"), //静态文件根目录
+        contentBase: path.join(__dirname, "public"), //静态文件根目录
         port: 9090, // 端口
         host: 'localhost',
         overlay: true,
